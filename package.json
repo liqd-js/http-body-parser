@@ -1,0 +1,38 @@
+{
+  "name": "@liqd-js/http-body-parser",
+  "description": "HTTP Body Parser",
+  "version": "0.0.1",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "lib/http_body_parser.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liqd-js/http-body-parser.git"
+  },
+  "keywords": [
+    "body",
+    "bodyparser",
+    "parser",
+    "liqd-js",
+    "liqd"
+  ],
+  "dependencies": {
+    "@liqd-js/http-header-parser": "^1.0.1",
+    "@liqd-js/multibuffer": "^1.0.2",
+    "@liqd-js/querystring": "^1.0.0",
+    "http-header-parser": "^1.0.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.5",
+    "mocha": "^5.0.4",
+    "nyc": "^14.1.1",
+    "request": "^2.88.0"
+  }
+}
