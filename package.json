@@ -1,7 +1,7 @@
 {
   "name": "@liqd-js/http-body-parser",
   "description": "HTTP Body Parser",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "radixxko",
   "license": "MIT",
   "main": "lib/http_body_parser.js",
@@ -24,10 +24,9 @@
     "liqd"
   ],
   "dependencies": {
-    "@liqd-js/http-header-parser": "^1.0.1",
-    "@liqd-js/multibuffer": "^1.0.2",
-    "@liqd-js/querystring": "^1.0.0",
-    "http-header-parser": "^1.0.2"
+    "@liqd-js/http-header-parser": "^1.0.2",
+    "@liqd-js/multibuffer": "^1.1.0",
+    "@liqd-js/querystring": "^1.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.5",
