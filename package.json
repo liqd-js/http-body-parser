@@ -1,7 +1,7 @@
 {
   "name": "@liqd-js/http-body-parser",
   "description": "HTTP Body Parser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "radixxko",
   "license": "MIT",
   "main": "lib/http_body_parser.js",
